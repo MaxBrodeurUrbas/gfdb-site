@@ -10,18 +10,19 @@
     "matter-js": "^0.18.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-game-engine": "^1.1.0",
     "react-scripts": "5.0.0",
     "sass": "^1.49.8",
     "web-vitals": "^2.1.4",
     "yarn": "^1.22.17"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts --max-http-header-size=1024 start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "proxy": "http://localhost:8000",
+  "proxy": "http://localhost:3000",
   "eslintConfig": {
     "extends": [
       "react-app",

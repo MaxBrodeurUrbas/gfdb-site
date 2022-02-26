@@ -1,8 +1,7 @@
 import './home.css';
-import Engine from '../engine'
+import SimpleGame from '../engine'
 
 function Home() {
-  return (<Engine />);
+  return (<SimpleGame />);
 }
-
 export default Home;
